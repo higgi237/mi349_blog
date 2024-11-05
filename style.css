@@ -1,0 +1,36 @@
+html {
+    background: #E0E3DD
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px;
+    padding: 50px;
+    color: #261E05;
+    background: #EBEDE9;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+
+}
+
+p {
+    line-height: 1.5em;
+}
+
+#blog {
+    border-top: 5px double #C5C8BC;
+}
+
+.blog-post {
+    border-bottom: 5px double #C5C8BC;
+}
