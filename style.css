@@ -19,18 +19,52 @@ h2 {
     font-size: 2em;
 }
 
-h3 {
-
-}
-
 p {
     line-height: 1.5em;
 }
 
 #blog {
     border-top: 5px double #C5C8BC;
+
 }
 
 .blog-post {
     border-bottom: 5px double #C5C8BC;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    background: #C5C8BC;
+}
+
+.img {
+    height: 200px; 
+    width: 200px; 
+    float: left;
+    margin-left: 5px;
+    margin-right: 15px;
+    margin-bottom: 100px;
+}
+
+.img2 {
+    height: 200px;
+    width: 300px;
+    float: right;
+    margin-right: 5px;
+    margin-left: 15px;
+    margin-bottom: 600px;
+    
+}
+
+.post1list {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5;
+}
+
+.post1header {
+    margin-top: 125px;
 }
