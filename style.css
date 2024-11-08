@@ -34,7 +34,7 @@ p {
 
 .sticky {
     position: sticky;
-    top: 0;
+    top: 0px;
     display: flex;
     justify-content: space-evenly;
     background: #C5C8BC;
