@@ -13,6 +13,7 @@ body {
 h1 {
     font-size: 4em;
     margin: 0;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -40,33 +41,40 @@ p {
     background: #C5C8BC;
 }
 
-.img {
-    height: 200px; 
-    width: 200px; 
+.img1 {
+    height: 300px; 
+    width: 300px; 
     float: left;
     margin-left: 5px;
-    margin-right: 15px;
-    margin-bottom: 100px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .img2 {
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 400px;
     float: right;
     margin-right: 5px;
-    margin-left: 15px;
-    margin-bottom: 600px;
+    margin-left: 20px;
+    margin-bottom: 800px;
+    margin-top: -75px;
+    border-radius: 5px;
     
 }
 
 .post1list {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 5;
+
+    margin-left: 300px;
 }
 
 .post1header {
-    margin-top: 125px;
+    margin-top: 0px;
+    margin-left: 320px;
+}
+
+.post2text {
+    padding-right: 450px;
 }
 
 .table1 {
@@ -107,5 +115,30 @@ td {
     border-bottom: 1px solid #C5C8BC;
     text-align: center;
 
+}
+
+.img3 {
+    height: 300px;
+    width: 400px;
+    float: left;
+    margin-right: 5px;
+    margin-left: 15px;
+    margin-bottom: 500px;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
+.abouttext {
+    padding-left: 500px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.aboutlist {
+    padding-left: 510px;
+    padding-right: 100px;
+    padding-top: 0px;
+    padding-bottom: 100px;
 }
 
